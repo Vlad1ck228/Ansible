@@ -16,7 +16,7 @@ pipeline  {
             steps {
                 sh '''
                 cd /home/ubuntu/ansible/
-                git clone https://https://github.com/Vlad1ck228/Ansible.git         
+                git clone https://github.com/Vlad1ck228/Ansible.git         
                 '''
             }
         }    
