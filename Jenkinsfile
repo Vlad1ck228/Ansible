@@ -1,7 +1,3 @@
-#!groovy
-//  groovy Jenkinsfile
-properties([disableConcurrentBuilds()])\
-
 pipeline  {
         agent any
            
