@@ -25,6 +25,8 @@ pipeline  {
                 sh '''
                 docker push vladhl/ansible
                 '''
+            }
+        }
         stage("Postgres") {
             steps {
                 sh '''
