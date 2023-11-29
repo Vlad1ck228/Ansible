@@ -1,0 +1,6 @@
+---
+- name: Ping Pong
+  hosts: kubernetes
+  tasks:
+    - name: Ping nodes
+      ping:
